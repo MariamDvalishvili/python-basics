@@ -7,7 +7,7 @@ if 3 > 5:
  print("you are welcome")
 else:
  print("you are right")
-______
+#______
 
 x = 6
 y = "Love!"
@@ -16,7 +16,7 @@ print(x)
 print(y)
 print("x")
 print("y")
-_________
+#_________
 
 a = 9
 b = 8
@@ -26,3 +26,36 @@ elif a < b:
  print("Wrong")
 else:
  print("Hi John")
+ ################
+# Variables
+
+z, w, q = "Love", "Life", "Air"
+print(z)
+print(w)
+print(q)
+###
+a = b = c = "World"
+print(a)
+print(b)
+print(c)
+####
+cutlery = ["Knife", "Fork", "Spoon"]
+a, b, c = cutlery 
+print(a)
+print(b)
+print(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
