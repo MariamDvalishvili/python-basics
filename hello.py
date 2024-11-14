@@ -54,8 +54,15 @@ a = "love  "
 b = "is "
 c = "blind "
 print(a + b + c)
+###
+a = "John"
+
+def myfunc():
+ print ("i like " + a)
 
 
+myfunc()
+###
 
 
 
