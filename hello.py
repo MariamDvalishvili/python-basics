@@ -44,7 +44,11 @@ a, b, c = cutlery
 print(a)
 print(b)
 print(c)
-
+######
+a = "love"
+b = "Is"
+c = "blind"
+print(a, b, c)
 
 
 
