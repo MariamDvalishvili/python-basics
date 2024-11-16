@@ -3,18 +3,17 @@ Name = input()
 print("Hello, " + Name)
 
 print("Wie alt bist du?")
-Alter = input()
+Alter = int(input()) 
 
 if Alter > 18:
     print("Du bist erwachsen.")
-elif 6 <= Alter <= 18:  
-    print("Kind")
-else: 
-    print("Du bist noch nicht volljährig.")
+elif 6 <= Alter <= 18:
+    print("Du bist ein Teenager.")
+else:
+    print("Du bist ein Kind.")
 
 print("Wo wohnst du?")
-Wohnort = input()"
-
+Wohnort = input()  
 
 print("\nDanke für deine Antworten!")
 print(f"Name: {Name}")
