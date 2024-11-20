@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
 
 
-
+#########################################
 
 
 import unittest
@@ -67,13 +67,13 @@ print(res)
 
 class TestAgeFunction(unittest.TestCase):
     def test_kind (self):
-        self.assertEqual(my_function(50), "Du bist ein Kind.")
+        self.assertEqual(my_function(3), "Du bist ein Kind.")
     
     def test_teenager(self):
-        self.assertEqual(my_function(7), "Du bist ein Teenager.")
+        self.assertEqual(my_function(15), "Du bist ein Teenager.")
     
     def test_erwachene(self):   
-        self.assertEqual(my_function(3), "Du bist erwachsen.")
+        self.assertEqual(my_function(66), "Du bist erwachsen.")
 
 
 if __name__ == "__main__":
