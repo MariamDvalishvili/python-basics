@@ -41,3 +41,43 @@ class TestMathFunctions(unittest.TestCase):
      
 if __name__ == "__main__":
     unittest.main()
+
+
+
+
+
+
+
+import unittest
+
+input_age = int(input())
+
+
+def my_function(age):
+    if age > 18:
+        return("Du bist erwachsen.")
+    elif 6 <= age <= 18:
+        return("Du bist ein Teenager.")
+    else:
+        return("Du bist ein Kind.")
+
+res = my_function(input_age)
+print(res)
+
+
+class TestAgeFunction(unittest.TestCase):
+    def test_kind (self):
+        self.assertEqual(my_function(50), "Du bist ein Kind.")
+    
+    def test_teenager(self):
+        self.assertEqual(my_function(7), "Du bist ein Teenager.")
+    
+    def test_erwachene(self):   
+        self.assertEqual(my_function(3), "Du bist erwachsen.")
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+
