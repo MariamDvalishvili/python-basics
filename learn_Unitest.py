@@ -79,5 +79,34 @@ class TestAgeFunction(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
+#####################################################
 
+
+import unittest
+
+def multiplication(x, y):
+ return x * y
+
+sume=multiplication(13, 7)
+ 
+result = "The result = " + str(sume)
+print(result)
+
+def minus(a,b):
+ return a - b
+ 
+sume=minus(2, 5)
+
+result  = "the result = " + str(sume)
+print(result)
+
+class TestMathFunctions(unittest.TestCase):
+    def test_multiplication(self):
+        self.assertEqual(multiplication(13, 7), 91, "Multiplication failed")
+
+    def test_minus(self):
+     self.assertEqual(minus(2, 5), -3, "minus failed")
+
+if __name__ == "__main__":
+    unittest.main()
 
